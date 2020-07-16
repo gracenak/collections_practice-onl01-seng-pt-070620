@@ -5,12 +5,12 @@ def sort_array_asc(array)
   end
 end
 
-# def sort_array_desc(array)
-#   new_integers = []
-#   array.sort.reverse do |a,b|
-#     a <=> b
-#   end
-# end
+def sort_array_desc(array)
+  new_integers = []
+  array.sort.reverse do |a,b|
+    a <=> b
+  end
+end
 
 # def sort_array_char_count(array)
 #     array.sort {|a,b| a.length <=> b.length} 
